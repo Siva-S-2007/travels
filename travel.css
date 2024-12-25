@@ -1,0 +1,210 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+  }
+
+
+
+.land{
+  position: relative;
+  height: 65%;
+
+}
+
+
+.bg-video{
+    object-fit: cover;
+    width: 100%;
+    z-index: -1;
+    height: 200%;
+    position: absolute;
+    top: 0;
+    padding-top: 0px;
+}
+
+.mount{
+   width: 70px;
+   height: auto;
+   padding-left: 15px;
+   padding-top: 10px ;
+}
+
+.bar{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: -43px;
+  margin-right: 15px;
+  gap: 40px;
+}
+
+.bar .mount{
+  position: relative;
+  left: -115px;
+}
+
+.bar .cont{
+  text-decoration: none;
+  font-weight: bold;
+  color: 	#00BFFF;
+}
+
+.cen-hero{
+  position: relative;
+  top: 10%;
+}
+
+.hero{
+  font-family: "Poppins",sans-serif;
+  margin-top: 200px;
+  margin-left: 330px;
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+
+}
+
+.hero-p{
+  margin-top: -20px;
+  margin-left: 450px;
+  font-size: 40px;
+  font-family: "Lilita One", serif;
+  color: 	#00BFFF;
+  font-style: normal;
+}
+
+.land button{
+ position: absolute;
+ left: 42%;
+ font-size: 15px;
+ margin-top: -15px;
+ border-radius: 15px;
+ height: 40px;
+ width: 150px;
+ border: 2px solid black ;
+ background-color: #00BFFF;
+ color: white;
+ font-family: "Poppins",sans-serif;
+ font-weight: bold;
+}
+
+i{
+  margin-left: 5px;
+  font-size: 13px;
+}
+
+.bar a:hover{
+  color: black;
+}
+
+.land button:hover{
+  background-color: white;
+  color: #00BFFF;
+}
+
+
+/* pricing */
+
+.pricing{
+  position: relative;
+  background-color: #00BFFF;
+  width: 100%;
+  height: 640px;
+  top: 40%;
+  font-weight: bold;
+}
+
+
+.pri-parent{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-left: -620px;
+  gap: 30px;
+}
+
+.cards{
+  height: 500px;
+  width: 350px;
+  position: relative;
+  left: 37%;
+  background-color: white;
+  border-radius: 20px;
+
+}
+
+.cards  img{
+  height: 150px;
+  width: auto;
+  border-radius:20px;
+  position: absolute;
+  top: 30px;
+  left: 31px;
+}
+
+.cards p {
+  position: relative;
+  line-height: 1.5;
+  top: 210px;
+  left: 40px;
+}
+
+.cards button{
+  position: absolute;
+  top: 88%;
+  left: 29%;
+  font-size: 15px;
+
+  border-radius: 15px;
+  height: 40px;
+  width: 150px;
+  border: 2px solid black ;
+  background-color: #00BFFF;
+  color: white;
+  font-family: "Poppins",sans-serif;
+  font-weight: bold;
+}
+
+.cards .tavera{
+  position: relative;
+  margin-top: -100px;
+}
+
+
+.Innova img{
+  left: 18px;
+}
+.van img{
+ height: 150px;
+  width:300px;
+}
+
+.cards button:hover{
+  background-color: white;
+  color: #00BFFF;
+}
+
+/* <!-- Gallery --> */
+
+.gallery{
+  position: relative;
+  background-color: #ffffff;
+  width: 100%;
+  height: 640px;
+  top: 40%;
+  font-weight: bold;
+}
+.container{
+  position: relative;
+  top: 10px;
+}
+
+.carousel-inner img {
+  height: 500px; /* Adjust to your preferred height */
+  object-fit: cover; /* Ensures proper scaling and cropping */
+  width: 100%; /* Full width of the container */
+}
